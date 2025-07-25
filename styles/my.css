@@ -1,0 +1,85 @@
+/* Font-styles */
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* navbar section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    margin: 30px auto;
+    max-width: 1140px;
+}
+.logo img{
+    height: 82px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Banner-section */
+.section{
+    display: flex;
+    margin-left: 9.37rem;
+    margin-right: 9.37rem;
+    margin-top: 1.25rem;
+    align-items:center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .menu{
+        display: none;
+    }
+    .container{
+        gap: 15px;
+    }
+    .cart{
+        margin-top: 1.25rem;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .section{
+        max-width: 100%;
+        flex-direction: column-reverse;
+        
+    }
+    .section img{
+        width: 480px;
+        height: 240px;
+        margin: 0;
+    }
+    .text-container{
+        width: 361px;
+        height: 147px;
+        
+    }
+
+    
+    
+
+
+}
