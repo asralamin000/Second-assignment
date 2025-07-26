@@ -99,6 +99,7 @@ nav{
     margin-top: 12.5rem;
      margin-left: 9.37rem;
     margin-right: 9.37rem;
+    position: relative;
 
 }
 .img-2{
@@ -118,6 +119,13 @@ nav{
     color: #00000098;
     padding-bottom: 0.625rem;
     
+}
+.img-3{
+    position: absolute;
+    top: -125px;
+    left: 350px;
+    width: 17.8rem;
+    height: 17.8rem;
 }
 
 
@@ -204,6 +212,9 @@ nav{
  }
  .box-1 h2{
    font-size: 2.0rem;
+ }
+ .img-3{
+    display: none;
  }
 
     
